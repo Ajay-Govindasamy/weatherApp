@@ -41,16 +41,3 @@ async function weatherDetails(capital,alpha2Code){
 	.catch(error =>console.log(error));
 })();
 
-    class Person {
-
-        constructor(firstName,lastName) {
-            this.firstName = firstName;
-            this.lastName = lastName;
-        }
-    }
-
-    const ajay = new Person('Ajay','Govindasamy');
-    console.log(ajay);
-
-
-
